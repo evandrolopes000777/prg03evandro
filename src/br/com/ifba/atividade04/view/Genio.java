@@ -29,7 +29,7 @@ public class Genio extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel2 = new javax.swing.JLabel();
+        lblFoto = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         lblTextoBolha1 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
@@ -44,8 +44,8 @@ public class Genio extends javax.swing.JFrame {
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/ifba/atividade04/images/Genie2pequeno.png"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(571, 163, -1, -1));
+        lblFoto.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/ifba/atividade04/images/Genie2pequeno.png"))); // NOI18N
+        getContentPane().add(lblFoto, new org.netbeans.lib.awtextra.AbsoluteConstraints(571, 163, -1, -1));
 
         jPanel1.setBackground(new java.awt.Color(51, 51, 51));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -149,9 +149,9 @@ public class Genio extends javax.swing.JFrame {
     private javax.swing.JButton btnPalpite;
     private javax.swing.JButton btnReiniciar;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel lblEscolha;
+    private javax.swing.JLabel lblFoto;
     private javax.swing.JLabel lblFotoBolha;
     private javax.swing.JLabel lblTextoBolha1;
     private javax.swing.JLabel lblTextoBolha2;
